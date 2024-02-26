@@ -17,9 +17,14 @@ namespace WMS.Adapter.Api.Controllers
         }
 
         [HttpGet(Name = "GetOrders")]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            return orderService.GetOrders();
+            return Ok(orderService.GetOrders());
         }
+
+        //public IEnumerable<GetOrderResponse> Get()
+        //{
+        //    return orderService.GetOrders();
+        //}
     }
 }

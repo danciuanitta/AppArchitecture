@@ -1,0 +1,13 @@
+Gui Ferreira
+https://www.youtube.com/playlist?list=PL18L3lKMddFq-3f7DcSrqa_pTKfoh-D5h
+https://guiferreira.me/archive/2022/hexagonal-architecture-for-dotnet-developers-beginners/
+
+
+Valentina Cupać
+https://www.youtube.com/watch?v=wMgW-OeVR8Y&list=PL1msPBH9ZGkhUAEqHZdIuc3CrZ_85SQc7
+https://www.linkedin.com/feed/update/urn:li:activity:7054707876853862400/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7054707876853862400%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29
+https://journal.optivem.com/p/hexagonal-architecture-live-coding-with-marcus
+
+
+Alistair Cockburn
+https://alistair.cockburn.us/hexagonal-architecture/

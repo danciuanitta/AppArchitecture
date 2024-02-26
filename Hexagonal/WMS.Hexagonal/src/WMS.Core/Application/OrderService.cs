@@ -1,5 +1,6 @@
 ﻿using WMS.Core.Ports.Driven;
 using WMS.Core.Ports.Driving;
+using System.Linq;
 
 namespace WMS.Core.Application
 {
@@ -12,9 +13,10 @@ namespace WMS.Core.Application
             this.orderReader = orderReader;
         }
 
-        public IEnumerable<string> GetOrders()
+        public IEnumerable<GetOrderResponse> GetOrders()
         {
-            return orderReader.GetOrders();
+            var orderEntities = orderReader.GetOrders();
+            return (orderEntities.Select(orderEntity => new GetOrderResponse() { Id = orderEntity.Id })).ToList();
         }
     }
 }

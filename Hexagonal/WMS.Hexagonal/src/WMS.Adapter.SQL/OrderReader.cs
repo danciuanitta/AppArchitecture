@@ -4,9 +4,9 @@ namespace WMS.Adapter.SQL
 {
     internal class OrderReader : IOrderReader
     {
-        public IEnumerable<string> GetOrders()
+        public IEnumerable<OrderEntity> GetOrders()
         {
-            return new List<string>() { "order1", "order2"};
+            return new List<OrderEntity>() { new OrderEntity() { Id = 1 } };
         }
     }
 }
