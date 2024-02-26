@@ -1,7 +1,9 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+
 using WMS.Core.Ports.Driving;
 
-namespace WMS.Adapter.Api.Controllers
+namespace WMS.Adapter.Driving
 {
     [ApiController]
     [Route("[controller]")]
@@ -21,10 +23,5 @@ namespace WMS.Adapter.Api.Controllers
         {
             return Ok(orderService.GetOrders());
         }
-
-        //public IEnumerable<GetOrderResponse> Get()
-        //{
-        //    return orderService.GetOrders();
-        //}
     }
 }

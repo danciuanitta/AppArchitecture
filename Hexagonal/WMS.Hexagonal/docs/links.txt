@@ -11,3 +11,6 @@ https://journal.optivem.com/p/hexagonal-architecture-live-coding-with-marcus
 
 Alistair Cockburn
 https://alistair.cockburn.us/hexagonal-architecture/
+
+Dan Patrascu
+https://www.youtube.com/watch?v=EKbjzQOj_Nc

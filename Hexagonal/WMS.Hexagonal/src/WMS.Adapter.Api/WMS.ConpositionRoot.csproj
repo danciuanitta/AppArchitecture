@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\WMS.CompositionRoot\WMS.CompositionRoot.csproj" />
+    <ProjectReference Include="..\..\WMS.Adapter.Driving\WMS.Adapter.Api.csproj" />
+    <ProjectReference Include="..\WMS.Adapter.Queue\WMS.Adapter.Queue.csproj" />
+    <ProjectReference Include="..\WMS.Adapter.SQL\WMS.Adapter.SQL.csproj" />
     <ProjectReference Include="..\WMS.Core\WMS.Core.csproj" />
   </ItemGroup>
 
