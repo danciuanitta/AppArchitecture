@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WMS.Adapter.Queue\WMS.Adapter.Queue.csproj" />
-    <ProjectReference Include="..\WMS.Adapter.SQL\WMS.Adapter.SQL.csproj" />
+    <ProjectReference Include="..\..\WMS.CompositionRoot\WMS.CompositionRoot.csproj" />
     <ProjectReference Include="..\WMS.Core\WMS.Core.csproj" />
   </ItemGroup>
 

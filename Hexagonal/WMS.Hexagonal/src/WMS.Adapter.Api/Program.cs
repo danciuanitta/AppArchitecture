@@ -1,5 +1,4 @@
-using WMS.Adapter.Queue.ServiceRegistration;
-using WMS.Adapter.SQL.ServiceRegistration;
+using WMS.CompositionRoot;
 using WMS.Core.ServiceRegistration;
 
 
@@ -12,9 +11,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.RegisterCore();
-builder.Services.RegisterAdapterQueue();
-builder.Services.RegisterAdapterSql();
+
+builder.Services.RegisterDependencies();
 
 var app = builder.Build();
 
