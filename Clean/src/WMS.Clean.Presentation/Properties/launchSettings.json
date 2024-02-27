@@ -4,17 +4,27 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:57283",
-      "sslPort": 44334
+      "applicationUrl": "http://localhost:40671",
+      "sslPort": 44307
     }
   },
   "profiles": {
-    "WMS.ModularMonolith": {
+    "http": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7254;http://localhost:5205",
+      "applicationUrl": "http://localhost:5285",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7051;http://localhost:5285",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
