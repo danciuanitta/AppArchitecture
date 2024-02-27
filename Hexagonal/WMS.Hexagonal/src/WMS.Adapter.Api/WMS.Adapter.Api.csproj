@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\WMS.Core\WMS.Core.csproj" />
+    <ProjectReference Include="..\WMS.Core\WMS.Core.csproj" />
   </ItemGroup>
 
 </Project>

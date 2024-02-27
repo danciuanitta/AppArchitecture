@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WMS.ConpositionRoot", "src\WMS.Adapter.Api\WMS.ConpositionRoot.csproj", "{AD827541-149D-43EF-9080-F68C17971731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WMS.CompositionRoot", "src\WMS.CompositionRoot\WMS.ConpositionRoot.csproj", "{AD827541-149D-43EF-9080-F68C17971731}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WMS.Adapter.SQL", "src\WMS.Adapter.SQL\WMS.Adapter.SQL.csproj", "{EC9C9C2F-ABA9-458D-9365-9F1A5D921131}"
 EndProject
@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WMS.Adapter.Queue", "src\WM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WMS.Adapter.Queue.Tests", "tests\WMS.Adapter.Queue.Tests\WMS.Adapter.Queue.Tests.csproj", "{898E811B-8D9E-427A-8A11-C441D5E25E99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMS.Adapter.Api", "WMS.Adapter.Driving\WMS.Adapter.Api.csproj", "{C2574EFC-2825-4BB0-B85F-2B9F16AD0D97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMS.Adapter.Api", "src\WMS.Adapter.Api\WMS.Adapter.Api.csproj", "{C2574EFC-2825-4BB0-B85F-2B9F16AD0D97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
